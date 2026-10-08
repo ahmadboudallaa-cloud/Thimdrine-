@@ -10,6 +10,7 @@ box-sizing: border-box;
 --vert: #556B2F;
 --titre : "Lora", serif;
 --texte : "Source Sans 3" , sans-serif;
+--size-h2 : 46px
 
 
 }
@@ -23,7 +24,7 @@ body{
     background-color: var(--baige);
      padding-top: 80px;
 }
-h1 , h2 , h3  {
+h1 , h2 , h3 , h4  {
 
     font-family: var(--titre);
 }
@@ -145,12 +146,123 @@ border: none;
 .nous{
 display: flex;
 flex-direction: column;
-gap: 20px;
-    width: 70%;
+gap: 40px;
+    width: 62%;
    
     margin-left: 100px;
-    margin-top: 80px;
+    margin-top: 150px;
+
 }
+.nous h2{
+    color: var(--vert);
+    font-size: var(--size-h2);
+}
+.text-nous{
+
+display:flex;
+flex-direction: column;
+gap: 20px;
+}
+.nous button{
+
+    width: 200px;
+    padding: 18px 5px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--vert);
+    color: white;
+    
+}
+.carte-produit {
+ max-width: 350px;
+ width: 100%;
+ height: 480px;
+ border: var(--vert) solid 3px;
+ border-radius: 10px;
+
+}
+.carte-produit img {
+    width: 98%;
+    height: 60%;
+   display: block;
+   margin: 5px auto;
+   background-size: cover;
+   border-radius: 10px;
+}
+.info-produit{
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.info-produit h3 {
+    color: var(--vert);
+}
+.prix{
+    display:flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.prix h4{
+    font-size: 20px;
+    color: var(--yellow);
+}
+.prix-commande{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.prix-commande button {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: var(--yellow);
+    font-weight: bold;
+    
+}
+
+.produits-phares {
+    margin: 160px 0 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.produits-phares h2{
+    font-size: var(--size-h2);
+    color: var(--vert)
+}
+.produits-phares .text-phare{
+    width: 50%;
+    
+}
+.cartes-produits{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produits-phares .btn1 button{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--vert);
+    color: white;
+}
+.produits-phares .btn1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
 
 
 
