@@ -173,11 +173,12 @@ gap: 20px;
     
 }
 .carte-produit {
- max-width: 350px;
- width: 100%;
+ flex: 0 0 calc((100% - 350px) / 3);
  height: 480px;
  border: var(--vert) solid 3px;
  border-radius: 10px;
+  
+   
 
 }
 .carte-produit img {
@@ -366,15 +367,87 @@ footer h3{
 
 .titre-page-produit{
     font-family: var(--titre);
-    font-size: var(--size-h2);
-    color: var(--vert);
+    font-size: 52px;
+    color: black;
     text-align: center;
     margin: 30px;
 }
 .tous-les-produits{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 80px;
+    
 }
+
+.titre-propos {
+  
+    font-family: var(--titre);
+    font-size: 52px;
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+.histoire{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+    gap: 30px;
+    width: 60%;
+    
+}
+.histoire h2{
+   font-size: var(--size-h2); 
+   font-family: var(--titre);
+   color: var(--vert);
+}
+.text-histoire{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+
+
+}
+.valeur h2{
+     font-size: var(--size-h2); 
+   font-family: var(--titre);
+   color: var(--vert);
+}
+.valeur{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+.carte-valeur{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px 20px;
+    width: 350px;
+    gap: 20px;
+    border: var(--vert) solid 3px;
+    border-radius: 30px;
+    
+    
+}
+.cartes-valeurs{
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 140px;
+}
+
+.titre-carte{
+    display: flex;
+    font-size: 30px;
+    font-family: var(--titre);
+    align-items: center;
+    color: var(--vert);
+    gap: 10px;
+}
+
+
 
 
 
