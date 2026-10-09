@@ -38,7 +38,6 @@ nav{
     padding-right: 50px;
     position: fixed;
    top: 0;
-   left: 0;
      z-index: 1000;
 }
 .logo img{
@@ -261,8 +260,121 @@ gap: 20px;
     justify-content: center;
     margin-top: 50px;
 }
+.envie {
+margin-left: 80px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+.envie h2{
+    font-size: var(--size-h2);
+    color: var(--vert);
+}
+.envie p{
+    width: 50%;
+}
+.envie button{
+    width: 200px;
+     padding: 15px 8px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: var(--vert);
+    font-weight: bold;
+    color: white;
+    
+}
+footer{
+    padding-top: 50px;
+    background-color: var(--yellow);
+    
+}
+footer h3{
+    color: var(--vert);
+}
+.info-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+   
+}
+.ico-texte {
+    display: flex;
+    align-items: center;
+
+}
+.lien-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.lien-plan a{
+    color: black;
+}
+.ho-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
+.resaux {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.resaux-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.resaux-img img {
+    width: 35px;
+    
+}
+
+.horaire{
+    width: 260px;
+}
+.copyright{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+.copyright .ligne{
+
+    width: 100% ;
+    height: 1px;
+    background-color: black;
+
+}
+
+.titre-page-produit{
+    font-family: var(--titre);
+    font-size: var(--size-h2);
+    color: var(--vert);
+    text-align: center;
+    margin: 30px;
+}
+.tous-les-produits{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
