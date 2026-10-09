@@ -446,6 +446,103 @@ footer h3{
     color: var(--vert);
     gap: 10px;
 }
+.titre-contact{
+
+     font-family: var(--titre);
+    font-size: 52px;
+    color: black;
+    text-align: center;
+    margin: 30px;
+
+}
+.carte-contact1{
+border: #556B2F solid 3px;
+width: 30%;
+padding: 30px 30px 50px 30px;
+
+
+}
+.carte-contact1 h3 {
+    font-size: 36px;
+    color: var(--yellow);
+    margin-bottom: 20px;
+
+
+}
+.info-carte-contact{
+display: flex;
+align-items: center;
+
+
+
+}
+.info-carte-contact img{
+width: 50px;
+
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
+}
+.carte-contact2{
+border: #556B2F solid 3px;
+width: 30%;
+padding: 30px 30px 50px 30px;
+
+
+}
+.carte-contact2 h3{
+    font-size: 36px;
+    color: var(--yellow);
+    margin-bottom: 20px;
+}
+
+.info-commande input{
+
+    width: 70%;
+    height: 30px;
+    border-radius: 30px;
+    border: #F6B72E solid 2px;
+
+}
+.commande-contact{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+
+
+}
+.info-commande{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.Messagecommande input{
+     width: 70%;
+    height: 90px;
+    border-radius: 30px;
+    border: #F6B72E solid 2px;
+
+    
+}
+
+.Messagecommande{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+
+
 
 
 
