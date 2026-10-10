@@ -68,11 +68,16 @@ nav .button{
    
 }
 
+
 .navigation .active{
     background-color: var(--vert);
     color: white;
     padding: 10px 8px;
     border-radius: 30px;
+}
+#menu-toggle,
+.burger {
+    display: none;
 }
 .hero-section{
     background-image: url(images/thimidrine-hero.webp);

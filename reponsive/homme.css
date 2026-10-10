@@ -1,0 +1,57 @@
+@media (max-width: 600px){
+
+
+ .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .burger span {
+        width: 28px;
+        height: 3px;
+        background-color: var(--vert);
+        border-radius: 3px;
+    }
+
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: var(--yellow);
+        gap: 20px;
+        
+    }
+
+    /* Afficher le menu quand on clique */
+    #menu-toggle:checked ~ .navigation {
+        display: flex;
+
+    }
+    nav .button{
+        display: none;
+    }
+
+
+
+
+    main{
+        width: 200%;
+    }
+    .hero-info h1{
+font-size: 40px;
+
+width: 120%;
+
+
+}
+}
+
