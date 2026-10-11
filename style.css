@@ -23,10 +23,17 @@ body{
     font-family: var(--texte);
     background-color: var(--baige);
      padding-top: 80px;
+     width: 100%;
+    max-width: 100%;
 }
 h1 , h2 , h3 , h4  {
 
     font-family: var(--titre);
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
 }
 nav{
     background-color: var(--yellow );
@@ -81,6 +88,7 @@ nav .button{
 }
 .hero-section{
     background-image: url(images/thimidrine-hero.webp);
+   max-width: 100%;
    width: 100%;
    height: 610px;
     
@@ -302,6 +310,7 @@ gap: 30px;
 footer{
     padding-top: 50px;
     background-color: var(--yellow);
+    
     
 }
 footer h3{
@@ -640,6 +649,7 @@ width: 40px;
 
 
 
+ 
 
 
 
@@ -647,11 +657,169 @@ width: 40px;
 
 
 
+ 
+@media screen and (max-width: 768px) {
 
+    body {
+        width: 100%;
+        max-width: 100%;
+    }
 
+    main {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
 
+    .hero-section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 500px;
+        background-position: center;
+    }
 
+    .hero-info {
+        width: 100%;
+        padding: 50px 20px;
+    }
 
+    .hero-info h1 {
+        font-size: 36px;
+    }
 
+    .hero-info p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .button-hero .btn1 , .btn2{
+        font-size: 12px;
+    }
+
+    .nous,
+    .histoire,
+    .valeur,
+    .envie {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nous h2{
+        font-size: 40px;
+    }
+
+    .cartes-produits,
+    .cartes-valeurs,
+    .tous-les-produits {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .produits-phares h2{
+        font-size: 40px;
+    }
+
+    .carte-produit,
+    .carte-produit2,
+    .carte-valeur {
+        width: 100%;
+        max-width: 350px;
+        flex: 1 1 280px;
+    }
+
+    .titre-page-produit,
+    .titre-propos,
+    .titre-contact {
+        font-size: 32px;
+        margin: 25px 15px;
+    }
+
+    .text-produit-phares {
+        margin-left: 20px;
+    }
+
+    .produits-phares .text-phare,
+    .envie p {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+   
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    .carte-contact1,
+    .carte-contact2 {
+        width: 100%;
+        max-width: 450px;
+        padding: 25px;
+    }
 
     
+    .info-footer {
+       
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .valeur-cart{
+        gap: 10px;
+    }
+
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .burger span {
+        width: 28px;
+        height: 3px;
+        background-color: var(--vert);
+        border-radius: 3px;
+    }
+
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: var(--yellow);
+        gap: 20px;
+        
+    }
+
+    /* Afficher le menu quand on clique */
+    #menu-toggle:checked ~ .navigation {
+        display: flex;
+
+    }
+    nav .button{
+        display: none;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+   
